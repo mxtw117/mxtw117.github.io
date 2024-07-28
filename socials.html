@@ -9,11 +9,16 @@
 <body>
     <button class="specialbutton" onclick="goToInstagram()">follow me on instagram</button>
     <br><br>
+    <button class="specialbutton" oncanplay="goToGitHub()">see me on github</button>
+    <br><br><br>
     <button class="button" onclick="goHome()">home</button>
 </body>
 <script>
     function goToInstagram(){
         window.open("https://www.instagram.com/m4tthwjz11/", "_blank")
+    }
+    function goToGitHub(){
+        window.open("https://github.com/mxtw117/","_blank")
     }
     function goHome(){
         window.location.href = 'index.html'
