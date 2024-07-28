@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" type="image/jpg" href="images/favicon.png">
+		<title>Matthew's Website</title>
+	</head>
+	<body>
+		<h1>Welcome to Matthew's Website!</span></h1>
+		<br>
+		<p>hi, i'm Matthew</p>
+		<br>
+		<p>This is funny website for fun 😝</p>
+		<br>
+		<button class="button" onclick="goToSkibidiLore()">skibidi toilet's lore</button>
+		<br><br>
+		<button class="specialbutton" onclick="goToSocials()">my socials</button>
+		<hr>
+		<p>360 - Charli_XCX</p>
+		<audio controls loop>
+			<source src="audio/Charli_XCX_-_360_@BaseNaija.mp3" type="audio/mpeg">
+		</audio>
+		<br>
+		<video autoplay loop>
+			<source src="images/Maxwell the Cat Theme720p.mp4">
+		</video>
+		<label for="name">Name (3-15 characters):</label>
+		<br>
+		<input type="text" id="name" name="name" required minlength="3" maxlength="15" size="10"> 
+		<script>
+			function goToSocials(){
+				window.location.href = 'socials.html'
+			}
+			function goToSkibidiLore(){
+				window.location.href = 'skibidilore.html';
+			}
+		</script>
+	</body>
+</html>
