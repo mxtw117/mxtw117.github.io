@@ -42,3 +42,7 @@ video{
     font-family: 'JetBrains Mono';
     src: url('https: //mxtw117.github.io/fonts/JetBrainsMono-Regular.ttf');
 }
+iframe{
+    width: 100%;
+    height: auto;
+}
