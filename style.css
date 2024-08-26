@@ -3,7 +3,7 @@ body {
 
     color: white;
     font-family: JetBrains Mono;
-    text-align:center;
+    text-align: left;
 }
 .button{
     display: inline-block;
@@ -37,7 +37,7 @@ video{
     font-size: 70px;
     font-weight: bold;
     margin-top: 30px;
-    color:aquamarine;
+    color: rgb(12, 113, 207);
 }
 @font-face {
     font-family: 'JetBrains Mono';
